@@ -1,0 +1,92 @@
+.sidebar{
+   flex:1;
+   border-right: 0.5px solid rgb(230, 227, 227);
+   min-height: 100vh;
+   background-color: white;
+
+
+   .top{
+      height: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .logo{
+         font-size: 20px;
+         font-weight: bold;
+         font: 700;
+         color: hsl(0, 87%, 31%)
+      }
+   }
+
+   hr{
+      height: 0;
+      border: 0.5px solid rgb(230, 227, 227);
+   }
+   .center{
+      padding-left: 10px;
+      ul{
+         list-style: none;
+         margin: 0;
+         padding: 0;
+
+         .title{
+            font-size: 13px;
+            font-weight: bold;
+            color: rgb(180, 89, 89);
+            margin-top: 16px;
+            margin-bottom: 6px;
+         }
+
+         li{
+            display: flex;
+            align-items: center;
+            padding: 4px;
+            cursor: pointer;
+            &:hover{
+               background-color: rgba(240, 128, 128, 0.114);
+            }
+         }
+
+         .icon{
+            font-size: 20px;
+            color: rgb(199, 10, 48)
+         }
+
+         span{
+            font-size: 16px;
+            margin-left: 8px;
+            color: rgb(30, 28, 28);
+            font-weight: 600;
+         }
+      }
+   }
+
+   .bottom{
+      display: flex;
+      align-items: center;
+      margin: 10px;
+
+      .colorOption{
+         width: 20px;
+         height: 20px;
+         border-radius: 5px;
+         border : 1px solid crimson;
+         margin: 6px;
+         cursor: pointer;
+
+         &:nth-child(1){
+            background-color: whitesmoke;
+         }
+         &:nth-child(2){
+            background-color: rgb(233, 189, 122);
+         }
+         &:nth-child(3){
+            background-color: rgb(39, 79, 116);
+         }
+         &:nth-child(4){
+            background-color: #333;
+         }
+      }
+   }
+}
