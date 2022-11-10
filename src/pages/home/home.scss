@@ -5,4 +5,29 @@
     .homeContainer{
         flex:6;
     }
+
+    .myWidgets, .charts{
+        display: flex;
+        padding: 20px;
+        gap: 20px;
+    }
+
+    .charts{
+        padding: 5px 20px;
+    }
+
+    .listContainer{
+        border-radius: 5px;
+        box-shadow: -11px 13px 7px -6px rgba(74,11,11,0.43);
+        -webkit-box-shadow: -11px 13px 7px -6px rgba(74,11,11,0.43);
+        -moz-box-shadow: -11px 13px 7px -6px rgba(74,11,11,0.43);
+        padding: 20px;
+        margin: 20px;
+
+        .listTitle{
+            font-weight: 500;
+            color:gray;
+            margin-bottom: 15px;
+        }
+    }
 }
